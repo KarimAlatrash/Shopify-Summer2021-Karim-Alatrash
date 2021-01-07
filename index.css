@@ -1,0 +1,233 @@
+/*
+LANDING PAGE
+*/
+#intro-text{
+	padding-top: 30vh;	
+	padding-bottom: 30vh;
+}
+
+#intro-text-container {
+	max-width: 20rem;
+}
+
+#first-text {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #1e1e1e;
+	letter-spacing: .025rem;
+}
+
+#name-logo {
+	padding-top: 5vh;
+}
+
+#all-my-stuff {
+	margin-left: 14vw;
+	margin-top: 11.5vh;
+}
+
+
+
+/*
+WORK IVE DONE
+*/
+
+#bayt-image {
+	width: 20rem;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.small-item {
+	display: inline-block;
+	text-align: center;
+	box-shadow: 4px 5px 5px #B1B1b1;
+	height: 20rem;
+	width: 24rem;
+	margin: 0.5vw;
+	border-radius: 4px;
+	transition: all .2s ease-in-out;
+}
+
+.small-item:hover {
+	transform: scale(1.01);
+}
+
+#aligned-items {
+	margin-top: 1vw;
+	display: inline-flex;
+	text-align: center;
+}
+
+#left-item {
+	display: flex; 
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+	background-image: radial-gradient(#ffffff, #CEE1FF);
+}
+
+#right-item {
+	background-color: #231352;
+}
+
+#democritus {
+	max-width: 95%;
+	max-height: 100%;
+}
+
+#large-item-container {
+	display: inline-flex;
+	width: 49rem;
+}
+
+
+
+#large-item {
+	height: 20rem;
+	width: 100%;
+	background-image: radial-gradient(#A72E3B, #85152C);
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+	
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
+
+#large-item:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+	
+}
+
+#large-wellify-container {
+	display: inline-flex;
+	width: 49rem;
+	margin-bottom: 1.5vw;
+}
+
+
+
+#large-wellify {
+	height: 20rem;
+	width: 100%;
+	background-image: radial-gradient(#ffffff, #e7d1eb);
+	box-shadow: 8px 9px 9px #B1B1b1;
+	border-radius: 10px;
+
+	transition: all .2s ease-in-out;
+	position: static;
+	display: flex; 
+	flex-wrap: wrap;
+	align-items: center; 
+	justify-content: center; 
+	text-align: center;
+}
+
+#large-wellify:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+	position: initial;
+
+}
+
+#portfolio-items {
+	margin-top: 11.5vh;
+	text-align: center;
+}
+
+#portfolio-items-wrapper {
+	padding-top: 5vw;
+	margin: auto;
+	display: flex;
+    flex-flow: column;
+	align-items: center;
+}
+
+#case-study-slideout {
+	width: auto;
+	display: none;
+}
+
+#large-item:hover #case-study-slideout {
+	display: inline-flex;
+	text-align: center;
+	transition: all .2s ease-in-out;
+
+}
+
+.header {
+	height: inherit;
+	width: auto;
+	margin-left: -4.16vw;
+	margin-right: -4.16vw;
+	margin-bottom: -8px;
+	margin-top: -10px;
+	background-color: white;
+	box-shadow: 0px 4px 6px #DEDEDE;
+	position: sticky;
+	z-index: 1;
+}
+
+.header-content-container {
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	margin: auto;
+	width: 30%;
+}
+
+.header-content {
+	padding-top: 2rem;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-content *:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the header gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+	padding-top: 102px;
+  }
+
+  .scroll-button-container {
+	  padding-top: 2rem;
+  }
+  .scroll-button {
+	fill:#85152C;
+	color:#85152C;
+	width: 40px;
+	transition: all .2s ease-in-out;
+	animation: float 3s ease-in-out infinite;
+
+  }
+
+  
+
+@keyframes float {
+	0% {
+		transform: translatey(0px);
+	}
+	50% {
+		transform: translatey(-8px);
+	}
+	100% {
+		transform: translatey(0px);
+	}
+}

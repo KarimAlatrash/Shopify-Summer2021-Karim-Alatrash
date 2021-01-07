@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+.large-first-name {
+	color: #2156AC; 
+	font-family: Roboto, sans-serif; 
+	font-weight: 400; 
+	font-style: normal;
+	letter-spacing: 2px;
+	font-size: 2rem;
+
+}
+.large-last-name {
+	color: #CEE1FF; 
+	font-family: Roboto, sans-serif; 
+	font-weight: 400; 
+	font-style: normal;
+	
+}
+.name-big {
+	font-size: 195px;
+	letter-spacing: -50px;
+	text-align: end;
+	font-weight: 300;
+	color: #363636;
+	
+}
+
+a {
+	text-decoration: none;
+
+}
+a p {
+	font-weight: 300;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+}
+
+.large-body-text {
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+.medium-large-body-text {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: #1e1e1e;
+}
+.medium-body-text {
+	font-size: 1.35rem;
+	font-weight: 300;
+	color: #1e1e1e;
+}
+
+.small-body-text {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #1e1e1e;
+	line-height: 2.25rem;
+}
+
+.xsmall-body-text {
+	font-size: 1rem;
+	font-weight: 300;
+	color: #1e1e1e;
+}
+
+.sub-header {
+	font-size: 2rem;
+}
+
+.header {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #1e1e1e;
+}
+
+.bolded {
+	font-weight: bold;
+}
+
+.white {
+	color: #ffffff;
+}
+
+#get-in-touch {
+	transition: all .2s ease-in-out;
+}
+
+#get-in-touch:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+
+.sticky-side {
+	position: fixed;
+	width: 12vw;
+}
+
+#small-name {
+	color: #4b4b4b;
+	font-size: 1.25rem;
+	letter-spacing: -0.1vw;
+}
+
+.sticky-side-text {
+	font-size: 1.25rem;
+	font-weight: 300;
+	color: #1e1e1e;
+}
+
+.side-nav {
+	padding-top: 13.6vh;
+}
+
+.side-nav * {
+	margin-bottom: 1.6vh;
+}
+
+.side-nav *:hover {
+	transition: all .2s ease-in-out;
+	transform: scale(1.01);
+}
+
+
+.right-aligned-text {
+    text-align: right;
+}
+
+
+html {
+	background-color: #fcfdff;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	margin-left: 4.16vw;
+	margin-right: 4.16vw;
+	
+	margin-bottom: 0;
+}
+
+
+
+
+
